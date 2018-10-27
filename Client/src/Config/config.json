@@ -1,0 +1,9 @@
+
+{
+    "googleApi":{
+        "client_id":"259352296303-ff6pchr7u4g2i4vrdkhdrl65mqv25js4.apps.googleusercontent.com",
+        "client_secret":"_c0rccF9PePpOc_pnsqncIu5",
+        "redirect_uri":"http://localhost:3000/auth/google/callback"
+    }
+}
+

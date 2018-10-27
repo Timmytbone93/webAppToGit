@@ -1,0 +1,116 @@
+.login{
+    width: 100%;
+    height: 100%;
+    background-image: url('brickwall_@2X.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+}
+.hr{
+    color: white;
+}
+.align-dropdown{
+  align-self: flex-start;
+  width: 33.3%;
+  z-index:2;
+}
+
+.align-content{
+  align-self: center;
+  z-index:2;
+}
+
+.align-bottom{
+  align-self: flex-start;
+  width: 33.3%;
+  z-index:2;
+}
+/* larger screens */
+@media only screen and (max-width:900px) {
+    .pre-menu-logo {
+        display: block;
+    }
+
+    .login-buttons{
+        display: none;
+
+    }
+
+}
+/*  Login Side Navigation For LogIn  */
+.pre-menu-logo {
+    display: none;
+}
+
+.sideNav-Container {
+  display: none;
+}
+
+
+/* Learn More */
+.learnMore{
+  margin-top: -30px;
+  text-align: center;
+  font-size: 2em;
+  font-style: initial;
+}
+
+.learnMore:hover{
+  color: white;
+    cursor: pointer;
+}
+
+/* Google Buttons */
+.pre-google-button{
+    float: right;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #E53935;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.pre-google-button:hover{
+    background-color: #EF9A9A;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #111;
+}
+
+.pre-signup-button{
+    float: right;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #009688;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.pre-signup-button:hover{
+    background-color: #80CBC4;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #111;
+}

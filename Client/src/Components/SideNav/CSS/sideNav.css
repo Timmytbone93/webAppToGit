@@ -1,0 +1,76 @@
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("green_cup.png");
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    display: block;
+    margin-top: 5%;
+
+}
+
+.sidenav a:not(:first-child):not(:nth-child(2)):hover {
+    color: #111;
+    background-color: #D97B59;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sidenav a:last-child{
+    position: fixed;
+    bottom: 0;
+    width: 12.2%;
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    transition: all .4s ease-in-out;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    background-color: Transparent;
+}
+
+#main {
+    transition: margin-left .9s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.menuButton {
+    border: none;
+    color: #A5AB95;
+    font-size: 1.5em;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    background-color: Transparent;
+
+}
+
+.menuButton:focus {outline:0;}
+
+
+
